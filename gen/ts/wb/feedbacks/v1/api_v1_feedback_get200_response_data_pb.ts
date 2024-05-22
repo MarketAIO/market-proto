@@ -12,23 +12,12 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import type {
-    BinaryReadOptions,
-    FieldList,
-    JsonReadOptions,
-    JsonValue,
-    PartialMessage,
-    PlainMessage
-} from "@bufbuild/protobuf";
-import {Message, proto3} from "@bufbuild/protobuf";
-import {ApiV1FeedbackGet200ResponseDataAnswer} from "./api_v1_feedback_get200_response_data_answer_pb.js";
-import {
-    ApiV1FeedbackGet200ResponseDataProductDetails
-} from "./api_v1_feedback_get200_response_data_product_details_pb.js";
-import {
-    ApiV1FeedbackGet200ResponseDataPhotoLinksInner
-} from "./api_v1_feedback_get200_response_data_photo_links_inner_pb.js";
-import {ApiV1FeedbackGet200ResponseDataVideo} from "./api_v1_feedback_get200_response_data_video_pb.js";
+import type { BinaryReadOptions, FieldList, JsonReadOptions, JsonValue, PartialMessage, PlainMessage } from "@bufbuild/protobuf";
+import { Message, proto3 } from "@bufbuild/protobuf";
+import { ApiV1FeedbackGet200ResponseDataAnswer } from "./api_v1_feedback_get200_response_data_answer_pb.js";
+import { ApiV1FeedbackGet200ResponseDataProductDetails } from "./api_v1_feedback_get200_response_data_product_details_pb.js";
+import { ApiV1FeedbackGet200ResponseDataPhotoLinksInner } from "./api_v1_feedback_get200_response_data_photo_links_inner_pb.js";
+import { ApiV1FeedbackGet200ResponseDataVideo } from "./api_v1_feedback_get200_response_data_video_pb.js";
 
 /**
  * @generated from message wb.feedbacks.v1.ApiV1FeedbackGet200ResponseData

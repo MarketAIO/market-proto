@@ -12,21 +12,10 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import type {
-    BinaryReadOptions,
-    FieldList,
-    JsonReadOptions,
-    JsonValue,
-    PartialMessage,
-    PlainMessage
-} from "@bufbuild/protobuf";
-import {Message, proto3} from "@bufbuild/protobuf";
-import {
-    AdvV1SeacatStatGet200ResponseDatesInnerSearch
-} from "./adv_v1_seacat_stat_get200_response_dates_inner_search_pb.js";
-import {
-    AdvV1SeacatStatGet200ResponseDatesInnerCatalog
-} from "./adv_v1_seacat_stat_get200_response_dates_inner_catalog_pb.js";
+import type { BinaryReadOptions, FieldList, JsonReadOptions, JsonValue, PartialMessage, PlainMessage } from "@bufbuild/protobuf";
+import { Message, proto3 } from "@bufbuild/protobuf";
+import { AdvV1SeacatStatGet200ResponseDatesInnerSearch } from "./adv_v1_seacat_stat_get200_response_dates_inner_search_pb.js";
+import { AdvV1SeacatStatGet200ResponseDatesInnerCatalog } from "./adv_v1_seacat_stat_get200_response_dates_inner_catalog_pb.js";
 
 /**
  * @generated from message wb.promotion.v1.AdvV1SeacatStatGet200ResponseDatesInner

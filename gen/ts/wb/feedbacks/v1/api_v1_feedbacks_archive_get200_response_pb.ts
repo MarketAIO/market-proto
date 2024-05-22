@@ -12,16 +12,9 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import type {
-    BinaryReadOptions,
-    FieldList,
-    JsonReadOptions,
-    JsonValue,
-    PartialMessage,
-    PlainMessage
-} from "@bufbuild/protobuf";
-import {Message, proto3} from "@bufbuild/protobuf";
-import {ApiV1FeedbacksArchiveGet200ResponseData} from "./api_v1_feedbacks_archive_get200_response_data_pb.js";
+import type { BinaryReadOptions, FieldList, JsonReadOptions, JsonValue, PartialMessage, PlainMessage } from "@bufbuild/protobuf";
+import { Message, proto3 } from "@bufbuild/protobuf";
+import { ApiV1FeedbacksArchiveGet200ResponseData } from "./api_v1_feedbacks_archive_get200_response_data_pb.js";
 
 /**
  * @generated from message wb.feedbacks.v1.ApiV1FeedbacksArchiveGet200Response

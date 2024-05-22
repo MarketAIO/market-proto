@@ -12,17 +12,10 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import type {
-    BinaryReadOptions,
-    FieldList,
-    JsonReadOptions,
-    JsonValue,
-    PartialMessage,
-    PlainMessage
-} from "@bufbuild/protobuf";
-import {Message, proto3} from "@bufbuild/protobuf";
-import {StatIntervalInterval} from "./stat_interval_interval_pb.js";
-import {StatsBlok1} from "./stats_blok1_pb.js";
+import type { BinaryReadOptions, FieldList, JsonReadOptions, JsonValue, PartialMessage, PlainMessage } from "@bufbuild/protobuf";
+import { Message, proto3 } from "@bufbuild/protobuf";
+import { StatIntervalInterval } from "./stat_interval_interval_pb.js";
+import { StatsBlok1 } from "./stats_blok1_pb.js";
 
 /**
  * @generated from message wb.promotion.v1.AdvV1StatsPost200ResponseInner

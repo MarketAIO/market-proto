@@ -12,18 +12,9 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import type {
-    BinaryReadOptions,
-    FieldList,
-    JsonReadOptions,
-    JsonValue,
-    PartialMessage,
-    PlainMessage
-} from "@bufbuild/protobuf";
-import {Message, proto3} from "@bufbuild/protobuf";
-import {
-    AdvV1AdvertGet200ResponseItemsInnerShowHoursInner
-} from "./adv_v1_advert_get200_response_items_inner_show_hours_inner_pb.js";
+import type { BinaryReadOptions, FieldList, JsonReadOptions, JsonValue, PartialMessage, PlainMessage } from "@bufbuild/protobuf";
+import { Message, proto3 } from "@bufbuild/protobuf";
+import { AdvV1AdvertGet200ResponseItemsInnerShowHoursInner } from "./adv_v1_advert_get200_response_items_inner_show_hours_inner_pb.js";
 
 /**
  * @generated from message wb.promotion.v1.AdvV1AdvertGet200ResponseItemsInner

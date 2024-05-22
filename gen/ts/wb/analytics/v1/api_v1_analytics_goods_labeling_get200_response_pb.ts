@@ -12,18 +12,9 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import type {
-    BinaryReadOptions,
-    FieldList,
-    JsonReadOptions,
-    JsonValue,
-    PartialMessage,
-    PlainMessage
-} from "@bufbuild/protobuf";
-import {Message, proto3} from "@bufbuild/protobuf";
-import {
-    ApiV1AnalyticsGoodsLabelingGet200ResponseReportInner
-} from "./api_v1_analytics_goods_labeling_get200_response_report_inner_pb.js";
+import type { BinaryReadOptions, FieldList, JsonReadOptions, JsonValue, PartialMessage, PlainMessage } from "@bufbuild/protobuf";
+import { Message, proto3 } from "@bufbuild/protobuf";
+import { ApiV1AnalyticsGoodsLabelingGet200ResponseReportInner } from "./api_v1_analytics_goods_labeling_get200_response_report_inner_pb.js";
 
 /**
  * @generated from message wb.analytics.v1.ApiV1AnalyticsGoodsLabelingGet200Response

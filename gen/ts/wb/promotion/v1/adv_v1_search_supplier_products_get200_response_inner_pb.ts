@@ -12,21 +12,10 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import type {
-    BinaryReadOptions,
-    FieldList,
-    JsonReadOptions,
-    JsonValue,
-    PartialMessage,
-    PlainMessage
-} from "@bufbuild/protobuf";
-import {Any, Message, proto3} from "@bufbuild/protobuf";
-import {
-    AdvV1SearchSupplierProductsGet200ResponseInnerSubject
-} from "./adv_v1_search_supplier_products_get200_response_inner_subject_pb.js";
-import {
-    AdvV1SearchSupplierProductsGet200ResponseInnerKind
-} from "./adv_v1_search_supplier_products_get200_response_inner_kind_pb.js";
+import type { BinaryReadOptions, FieldList, JsonReadOptions, JsonValue, PartialMessage, PlainMessage } from "@bufbuild/protobuf";
+import { Any, Message, proto3 } from "@bufbuild/protobuf";
+import { AdvV1SearchSupplierProductsGet200ResponseInnerSubject } from "./adv_v1_search_supplier_products_get200_response_inner_subject_pb.js";
+import { AdvV1SearchSupplierProductsGet200ResponseInnerKind } from "./adv_v1_search_supplier_products_get200_response_inner_kind_pb.js";
 
 /**
  * @generated from message wb.promotion.v1.AdvV1SearchSupplierProductsGet200ResponseInner

@@ -12,18 +12,9 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import type {
-    BinaryReadOptions,
-    FieldList,
-    JsonReadOptions,
-    JsonValue,
-    PartialMessage,
-    PlainMessage
-} from "@bufbuild/protobuf";
-import {Message, proto3} from "@bufbuild/protobuf";
-import {
-    AdvV2AutoStatWordsGet200ResponseClustersInner
-} from "./adv_v2_auto_stat_words_get200_response_clusters_inner_pb.js";
+import type { BinaryReadOptions, FieldList, JsonReadOptions, JsonValue, PartialMessage, PlainMessage } from "@bufbuild/protobuf";
+import { Message, proto3 } from "@bufbuild/protobuf";
+import { AdvV2AutoStatWordsGet200ResponseClustersInner } from "./adv_v2_auto_stat_words_get200_response_clusters_inner_pb.js";
 
 /**
  * @generated from message wb.promotion.v1.AdvV2AutoStatWordsGet200Response

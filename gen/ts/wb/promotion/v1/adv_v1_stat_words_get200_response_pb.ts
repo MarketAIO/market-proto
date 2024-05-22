@@ -12,17 +12,10 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import type {
-    BinaryReadOptions,
-    FieldList,
-    JsonReadOptions,
-    JsonValue,
-    PartialMessage,
-    PlainMessage
-} from "@bufbuild/protobuf";
-import {Message, proto3} from "@bufbuild/protobuf";
-import {AdvV1StatWordsGet200ResponseWords} from "./adv_v1_stat_words_get200_response_words_pb.js";
-import {AdvV1StatWordsGet200ResponseStatInner} from "./adv_v1_stat_words_get200_response_stat_inner_pb.js";
+import type { BinaryReadOptions, FieldList, JsonReadOptions, JsonValue, PartialMessage, PlainMessage } from "@bufbuild/protobuf";
+import { Message, proto3 } from "@bufbuild/protobuf";
+import { AdvV1StatWordsGet200ResponseWords } from "./adv_v1_stat_words_get200_response_words_pb.js";
+import { AdvV1StatWordsGet200ResponseStatInner } from "./adv_v1_stat_words_get200_response_stat_inner_pb.js";
 
 /**
  * @generated from message wb.promotion.v1.AdvV1StatWordsGet200Response

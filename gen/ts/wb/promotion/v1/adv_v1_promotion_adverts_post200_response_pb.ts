@@ -12,18 +12,11 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import type {
-    BinaryReadOptions,
-    FieldList,
-    JsonReadOptions,
-    JsonValue,
-    PartialMessage,
-    PlainMessage
-} from "@bufbuild/protobuf";
-import {Message, proto3} from "@bufbuild/protobuf";
-import {ResponseInfoAdvertParamsInner} from "./response_info_advert_params_inner_pb.js";
-import {ResponseInfoAdvertType8AutoParams} from "./response_info_advert_type8_auto_params_pb.js";
-import {ResponseInfoAdvertType9UnitedParamsInner} from "./response_info_advert_type9_united_params_inner_pb.js";
+import type { BinaryReadOptions, FieldList, JsonReadOptions, JsonValue, PartialMessage, PlainMessage } from "@bufbuild/protobuf";
+import { Message, proto3 } from "@bufbuild/protobuf";
+import { ResponseInfoAdvertParamsInner } from "./response_info_advert_params_inner_pb.js";
+import { ResponseInfoAdvertType8AutoParams } from "./response_info_advert_type8_auto_params_pb.js";
+import { ResponseInfoAdvertType9UnitedParamsInner } from "./response_info_advert_type9_united_params_inner_pb.js";
 
 /**
  * @generated from message wb.promotion.v1.AdvV1PromotionAdvertsPost200Response

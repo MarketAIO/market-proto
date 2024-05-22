@@ -12,16 +12,9 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import type {
-    BinaryReadOptions,
-    FieldList,
-    JsonReadOptions,
-    JsonValue,
-    PartialMessage,
-    PlainMessage
-} from "@bufbuild/protobuf";
-import {Message, proto3} from "@bufbuild/protobuf";
-import {AdvV0AllcpmPost200ResponseInnerCpmInner} from "./adv_v0_allcpm_post200_response_inner_cpm_inner_pb.js";
+import type { BinaryReadOptions, FieldList, JsonReadOptions, JsonValue, PartialMessage, PlainMessage } from "@bufbuild/protobuf";
+import { Message, proto3 } from "@bufbuild/protobuf";
+import { AdvV0AllcpmPost200ResponseInnerCpmInner } from "./adv_v0_allcpm_post200_response_inner_cpm_inner_pb.js";
 
 /**
  * @generated from message wb.promotion.v1.AdvV0AllcpmPost200ResponseInner
